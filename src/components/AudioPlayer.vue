@@ -66,7 +66,11 @@
 <script>
 export default {
   props: {
-    src: String,
+    src: {
+      type: String,
+      default:
+        "https://lalalai.s3.us-west-2.amazonaws.com/media/split/a7564eb8-cbf2-40e2-9cb86061d8d055a7/no_vocals",
+    },
   },
 
   data() {
